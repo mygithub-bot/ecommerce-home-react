@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:aqua;
+    color:red;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+ .logo img{
+    height: 100px;
+ } 
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    font-weight: bold;
+  }
+  .user{
+    color:red;
+    display:flex;
+    text-align: center;
+    padding:20px;
+    /* justify-content: ; */
+  }
+  .cart{
+    padding:10px
+  }
+  .signin{
+padding:10px
+  }
